@@ -10,7 +10,9 @@
 ## Qt5 Build Instructions
 ```
 drasko@Lenin:~/qt5/qt5GstreamerExample$ mkdir build
+
 drasko@Lenin:~/qt5/qt5GstreamerExample$ cd build/
+
 drasko@Lenin:~/qt5/qt5GstreamerExample/build$ cmake ..
 -- The C compiler identification is GNU 4.9.2
 -- The CXX compiler identification is GNU 4.9.2
@@ -28,10 +30,12 @@ drasko@Lenin:~/qt5/qt5GstreamerExample/build$ cmake ..
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/drasko/qt5/qt5GstreamerExample/build
+
 drasko@Lenin:~/qt5/qt5GstreamerExample/build$ make -j 8
 Scanning dependencies of target soundlink
 [100%] Building CXX object CMakeFiles/soundlink.dir/main.cpp.o
 Linking CXX executable soundlink
 [100%] Built target soundlink
+
 drasko@Lenin:~/qt5/qt5GstreamerExample/build$ ./soundlink ~/audio/BobMarley-Jamming.mp3 
 ```
